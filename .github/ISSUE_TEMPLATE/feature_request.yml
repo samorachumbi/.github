@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest a capability, or tell me what you are trying to get done.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **The useful part is what you need, not how to phrase it.** If a form feels like a barrier, email
+        [samora@itikia.co.ke](mailto:samora@itikia.co.ke) in whatever words are natural to you.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you actually trying to get done?
+      description: The task, not the tool.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What do you do today instead?
+      description: Which tool, how long it takes, what breaks. This is what decides whether it gets built.
+  - type: input
+    id: who
+    attributes:
+      label: Who else has this problem?
+      description: One sentence is fine.
