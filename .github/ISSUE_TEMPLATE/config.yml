@@ -1,0 +1,13 @@
+# The default "New issue" page for every repository in this account that does not ship its own
+# templates. The point of these links is to reach a person without an account.
+blank_issues_enabled: true
+contact_links:
+  - name: "Need this built or fixed for your team? Email Samora"
+    url: mailto:samora@itikia.co.ke?subject=DeepSeek%20Harness%20project
+    about: "Paid work, a project that does not exist yet, or a question you would rather not post publicly. Answered within one business day; a call is fine if you would rather talk."
+  - name: "Not a developer? There is no wrong door"
+    url: mailto:samora@itikia.co.ke
+    about: "Write in your own words — what you are trying to get done, and what you use today. No jargon needed, no account needed."
+  - name: "Security issue or a leaked credential (please do not post publicly)"
+    url: mailto:samora@itikia.co.ke?subject=Security
+    about: "Email with the subject 'Security' instead of opening an issue, so it is not public while it is unfixed."
