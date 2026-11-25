@@ -1,0 +1,31 @@
+name: Bug report
+description: Something in this project does not work as documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Not a developer, or this is about paid work, a licence or "can it do X"?**
+        Email [samora@itikia.co.ke](mailto:samora@itikia.co.ke) instead — you will get a person, not a template.
+  - type: input
+    id: version
+    attributes:
+      label: Version, and how you installed it
+      description: The command output, the release tag, or the bundle filename.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened, and what did you expect?
+      description: Paste the output. Trim anything private first.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
